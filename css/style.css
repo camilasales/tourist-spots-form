@@ -1,0 +1,133 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@600&family=Nunito:wght@300&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-image: url("../images/background-main.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    align-items: top;
+    justify-content: space-between
+}
+
+header{
+    width: 30%;
+    padding: 0 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-sizing: border-box;
+}
+
+h1{
+    font-family: 'Montserrat', sans-serif;
+    color: #ffffff;
+    font-size: 50px;
+}
+
+form{
+    width: 60%;
+    padding: 0 50px 10px 0;
+    box-sizing: border-box;
+}
+
+fieldset{
+    border-bottom: none;
+    border-right: none;
+    border-left: none;
+    border-color: #ffffff;
+    margin-top: 20px;
+}
+
+fieldset{
+    display: flex;
+    flex-direction: row;
+    justify-items: space-between;
+}
+
+.fields__block div {
+    width: 100%;
+}
+
+.fields__block input{
+    width: 100%;
+    display: block;
+}
+
+.fields__block div > input, select, textarea{
+    height: 30px;
+    width: 90%;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    margin-bottom: 20px;
+}
+
+.type__entry{
+    display: flex;
+    align-items: center;
+}
+
+.type__entry label{
+    margin-right: 20px;
+}
+
+.operation{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.operation div{
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    width: 100%;
+}
+.operation__time{
+    margin-right: 50px;
+
+}
+.operation__label__day, .operation__time{
+    width: 15%;
+}
+
+legend{
+    font-family: 'Nunito', sans-serif;
+    color: #ffffff;
+    padding-right: 10px;
+    margin-bottom: 20px;
+    box-sizing: border-box;
+}
+
+label{
+    font-family: 'Nunito', sans-serif;
+    color: #ffffff;
+}
+
+textarea{
+    height: 80px;
+}
+
+span{
+    color: #ce4b4b;
+}
+
+button{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+    margin: 40px 0 40px 0;
+    padding: 20px;
+    width: 100%;
+    border-radius: 20px;
+    border-style: none;
+    background-color: rgba(25, 25, 77, 0.884);
+    color: #ffffff;
+}
+
+button:hover{
+    box-shadow: 4px 4px 25px 5px #ffffff;
+}
